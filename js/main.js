@@ -1,6 +1,5 @@
 var $title = $('.title2');
 var $html = $('html');
-var $leaves = $('.leaves');
 
 $('.title2').on('click', function () {
   $('.title3').toggleClass('is-clicked');
