@@ -1,6 +1,3 @@
-var $title = $('.title2');
-var $html = $('html');
-
 $('.title2').on('click', function () {
   $('.title3').toggleClass('is-clicked');
 });
