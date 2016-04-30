@@ -16,7 +16,7 @@ $('.spoons').waypoint(function () {
 
 $('.leaves').on('transitionend', function () {
   $('.leaf1').addClass('white');
-    }
+}
 );
 
 $('.candy2').on('mouseenter', function () {
@@ -25,7 +25,7 @@ $('.candy2').on('mouseenter', function () {
 
 $('.candy2').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy3').on('mouseenter', function () {
@@ -34,7 +34,7 @@ $('.candy3').on('mouseenter', function () {
 
 $('.candy3').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy4').on('mouseenter', function () {
@@ -43,7 +43,7 @@ $('.candy4').on('mouseenter', function () {
 
 $('.candy4').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy5').on('mouseenter', function () {
@@ -52,7 +52,7 @@ $('.candy5').on('mouseenter', function () {
 
 $('.candy5').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy6').on('mouseenter', function () {
@@ -61,7 +61,7 @@ $('.candy6').on('mouseenter', function () {
 
 $('.candy6').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy7').on('mouseenter', function () {
@@ -70,7 +70,7 @@ $('.candy7').on('mouseenter', function () {
 
 $('.candy7').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy8').on('mouseenter', function () {
@@ -79,7 +79,7 @@ $('.candy8').on('mouseenter', function () {
 
 $('.candy8').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy9').on('mouseenter', function () {
@@ -88,7 +88,7 @@ $('.candy9').on('mouseenter', function () {
 
 $('.candy9').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy10').on('mouseenter', function () {
@@ -97,7 +97,7 @@ $('.candy10').on('mouseenter', function () {
 
 $('.candy10').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy11').on('mouseenter', function () {
@@ -106,7 +106,7 @@ $('.candy11').on('mouseenter', function () {
 
 $('.candy11').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy12').on('mouseenter', function () {
@@ -115,7 +115,7 @@ $('.candy12').on('mouseenter', function () {
 
 $('.candy12').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy13').on('mouseenter', function () {
@@ -124,7 +124,7 @@ $('.candy13').on('mouseenter', function () {
 
 $('.candy13').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy14').on('mouseenter', function () {
@@ -133,7 +133,7 @@ $('.candy14').on('mouseenter', function () {
 
 $('.candy14').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.candy15').on('mouseenter', function () {
@@ -142,7 +142,7 @@ $('.candy15').on('mouseenter', function () {
 
 $('.candy15').on('animationend', function () {
   $(this).removeClass('pulse');
-    }
+}
 );
 
 $('.wrapper').waypoint(function (direction) {
@@ -150,7 +150,7 @@ $('.wrapper').waypoint(function (direction) {
     $('.wrapper').addClass('wrapper-animate');
   } else {
     $('.wrapper').removeClass('wrapper-animate');
-}
+  }
 }, {offset: '50%'});
 
 $('.spoons').waypoint(function () {
