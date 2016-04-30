@@ -13,7 +13,7 @@ $('.spoons').waypoint(function () {
 $('.leaves').on('transitionend', function () {
   $('.leaf1').addClass('white');
 }
-);
+ );
 
 $('.candy2').on('mouseenter', function () {
   $('.candy2').addClass('pulse');
