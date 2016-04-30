@@ -22,7 +22,7 @@ $('.candy2').on('mouseenter', function () {
 $('.candy2').on('animationend', function () {
   $(this).removeClass('pulse');
 }
-);
+ );
 
 $('.candy3').on('mouseenter', function () {
   $('.candy3').toggleClass('pulse');
